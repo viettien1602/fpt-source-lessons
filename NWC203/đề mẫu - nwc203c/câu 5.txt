@@ -1,0 +1,24 @@
+câu 5
+Suppose two hosts, A and B, are separated by 30,000 kilometers and are
+connected by a direct link of R = 3 Mbps. Suppose the propagation speed over
+the link is 2.5 x 108 meters/sec.
+a. Calculate the bandwidth-delay product, R _ dprop.
+b. Consider sending a file of 900,000 bits from Host A to Host B. Suppose the
+file is sent continuously as one large message. What is the maximum number of
+bits that will be in the link at any given time?
+
+
+A)ta có
+A và B cách nhau 30000km-->3*10^7 mét(1km bằng 10^3m)
+Tốc độ truyền tải (R) của liên kết trực tiếp giữa A và B = 3 Mbps--> 3*10^6 bps(1Mbps = 10^6 bps)
+Tốc độ lan truyền (S) của liên kết trực tiếp giữa A và B = 2.5*10^8 mét/s
+                                   giải
+-Calculate the propagation delay(độ delay tốc độ lan truyền) 
+d(prog) = (khoảng cách)/(tốc độ)= 3*10^7/2.5*10^8= 0.12 sec(giây)
+
+- Calculate the band-width delay product(Tính tích số trễ độ rộng băng tần)\
+R * d(prog) = 3*10^6 * 0.12 = 36*10^4 bits
+band-width delay product là 360000 bits
+
+B) Size of a file is 900000 bits= 9*10^5 bits
+Vẫn y như đáp án câu A, số bits lớn nhất là 360000 bits

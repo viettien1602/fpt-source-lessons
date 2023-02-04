@@ -1,0 +1,20 @@
+câu 10
+Suppose Host A wants to send a large file to Host B. The path from Host A
+to Host B has three links, of rates R1 = 250 kbps, R2 = 3 Mbps, and R3 = 2
+Mbps.
+a. Assuming no other traffic in the network, what is the throughput for the file
+transfer?
+b. Suppose the file is 4 million bytes. Dividing the file size by the throughput,
+roughly how long will it take to transfer the file to Host B?
+
+ta có
+R1 = 250 kbps
+R2 = 3 Mbps
+R3 = 2 Mbps
+A) the throughput for the file
+transfer = min{R1,R2,R3}= min{250 kbps, 3 Mbps, 2 Mbps} = 250kbps
+
+B) the file size = 4 million bytes
+-convert to bits = 32000000 bits
+-From (a), Throughput for the file transfer=250 Kbps = =250000 bps
+-File size/Throughput for the file transfer = 32000000/250000 = 128 giây(second)

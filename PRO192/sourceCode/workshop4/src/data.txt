@@ -1,0 +1,17 @@
+id:001
+f_name:thien
+l_name:thien
+birth_day:07/06/2002
+address:eifiefe
+phone:4234234
+email:fefef
+type:2
+~~~
+id:002
+f_name:khue
+l_name:thien
+birth_day:02/02/2021
+address:eifhif
+phone:234234
+email:hfiehwf
+type:3

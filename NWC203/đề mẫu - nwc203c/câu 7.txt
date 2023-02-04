@@ -1,0 +1,30 @@
+câu 7
+7. A packet switch receives a packet and determines the outbound link to which
+the packet should be forwarded. When the packet arrives, one other packet is
+halfway done being transmitted on this outbound link and four other packets are
+waiting to be transmitted. Packets are transmitted in order of arrival.
+Suppose all packets are 2,500 bytes and the link rate is 3 Mbps. What is the
+queuing delay for the packet? More generally, what is the queuing delay when all
+
+packets have length L, the transmission rate is R, x bits of the currently-being-
+transmitted packet have been transmitted, and n packets are already in the queue?
+Ta có:
+package length = L
+transimision rate = R
+curently transimitted packet = x bits
+Waiting queue = n package
+
+-Công thức queuing delay
+Queuing delay = [(nL) + (L-x)]*R(Mbps)*n/R(bps)
+
+ta có
+L = 2500 bytes
+R = 3 Mbps = 3*10^6 bps
+x = 2500/2 = 1250 (transmit halfway)
+n = 4(do có 4 package đang chờ chuyển)
+                   giải
+-[nL + (L-x)] = [(4*2500) + (2500-1250)]
+               10000 + 1250 = 11250 bytes
+-Package transmit rate at 3Mbps
+ 11250*3*4=135000
+-Queuing delay = 135000/3*10^6 = 0.045 sec(giây)

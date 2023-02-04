@@ -1,0 +1,18 @@
+câu 9
+9. Consider a packet of length 2,000 bytes that propagates over a link of
+distance 3,500 km with propagation speed of 2,5*10^8 m/s, and transmission
+rate
+2 Mbps?
+a. How long does the packet propagation take?
+b. Does this propagation delay depend on the packet length?
+c. Does this propagation delay depend on the transmission rate?
+
+Ta có
+L = 1000 bytes
+R =  3Mbps = 3*10^6
+distance = 3500km
+S = 2.5*10^8 m/s
+                            giải
+A) time = distance/S = (3500*10^3)/(2.5*10^8) = 0.014s = 14ms
+B) Does this propagation delay depend on the packet length? (no)    |Lý thuyết nên đừng hỏi :))
+C) Does this propagation delay depend on the transmission rate?(no) |
